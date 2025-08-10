@@ -24,7 +24,7 @@ Schema Design
 
 
 SQLITE:Database Tables 
-![Database](SQLITE.PNG)
+![Database](SQLITE.png)
 
 Purpose:
 To streamline the tracking and management of shipments, improve data accuracy, and support easy retrieval of customer and package information.
