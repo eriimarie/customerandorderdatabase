@@ -22,11 +22,12 @@ Each table is connected via unique IDs to maintain relationships between custome
 Schema Design 
 ![Tables Design for Database](SchemaDesign.PNG)
 
+
+SQLITE:Database Tables 
+![Database](SQLITE.PNG)
+
 Purpose:
 To streamline the tracking and management of shipments, improve data accuracy, and support easy retrieval of customer and package information.
 
 
-
-
-
-
+Note: The database allows modifications to the Customer table, such as adding shipment receipt information (guía) related to items or shipments for better tracking.
