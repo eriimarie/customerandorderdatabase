@@ -1,0 +1,45 @@
+# SQL Queries
+
+Query: 
+
+1. Find a Customer by Last Name
+This query searches for customers with the same Last Name:
+
+SELECT CustomerID, Name, LastName, Phone, ClientAddress
+FROM Customers
+WHERE LastName = 'Doe';
+
+2. List Shipments by Customer ID
+This query lists all Shipments made by a specific customer (e.g., CustomerID = 1):
+
+SELECT ShipmentID, Weight, TotalPayment, SendLocation, DestinationLocation, Barcode, DateShipped, PaymentType
+FROM Shipments
+WHERE CustomerID = 1;
+
+3. Find Items in a Shipment by Shipment ID
+If you want to find Items related to a specific Shipment, this query will list the items for that shipment:
+
+SELECT ItemID, TicketDescription, Quantity
+FROM Items
+WHERE ShipmentID = 1;
+
+4. Calculate the Total Payment for a Customer
+This query sums up the total payments made by a customer (e.g., CustomerID = 1):
+
+SELECT SUM(TotalPayment) AS TotalPayments
+FROM Shipments
+WHERE CustomerID = 1;
+
+5.Get Shipment Details for a Given Date Range
+This query retrieves all shipments within a certain date range (e.g., from ‘2025-01-01’ to ‘2025-12-31’):
+
+SELECT ShipmentID, CustomerID, Weight, TotalPayment, DateShipped
+FROM Shipments
+WHERE DateShipped BETWEEN '2025-01-01' AND '2025-12-31';
+
+Bonus: Update Payment Type for a Shipment
+This query updates the PaymentType for a shipment:
+
+UPDATE Shipments
+SET PaymentType = 'PayPal'
+WHERE ShipmentID = 1;
