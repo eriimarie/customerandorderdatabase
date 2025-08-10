@@ -19,11 +19,12 @@ The database consists of three main tables:
 
 Each table is connected via unique IDs to maintain relationships between customers, shipments, and items, ensuring data integrity and easy querying.
 
-Schema Design 
+## Schema Design 
 ![Tables Design for Database](SchemaDesign.PNG)
 
 
-SQLITE:Database Tables 
+## SQLITE:Database Tables 
+
 ![Database](SQLITE.png)
 
 Purpose:
