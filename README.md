@@ -1,6 +1,7 @@
 # Database SQLITE
 **![SQLITE](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white)**
-Project:
+
+## Project:
 
 Create a database using SQLite to manage customer shipments with organized tables.
 
