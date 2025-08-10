@@ -19,6 +19,11 @@ The database consists of three main tables:
 
 Each table is connected via unique IDs to maintain relationships between customers, shipments, and items, ensuring data integrity and easy querying.
 
+Schema Design 
+![Tables Design for Database](SchemaDesign.PNG)
+
+Purpose:
+To streamline the tracking and management of shipments, improve data accuracy, and support easy retrieval of customer and package information.
 
 
 
